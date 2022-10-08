@@ -17,7 +17,8 @@ body {
 }
 
 section {
-    padding: 1rem 3.75rem;
+    padding-top: 3rem;
+    padding-left: 2.75rem;
 }
 
 .hero {
@@ -38,12 +39,17 @@ section {
 }
 
 .card {
+
+    /* padding: 1rem ; */
+    padding-left: 2.75rem;
+
     position: relative;
     top: 5rem;
     display: flex;
     flex-direction: column;
     width: 9rem;
 }
+
 
 .card>img {
     width: 8rem;
@@ -53,4 +59,11 @@ section {
 
 .card>p {
     margin-top: 0;
+}
+
+.card-slide {
+    display: flex;
+    flex-direction: row;
+    max-width: 80vw;
+    flex-wrap: wrap;
 }
