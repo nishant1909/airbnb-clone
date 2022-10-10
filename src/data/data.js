@@ -1,0 +1,32 @@
+export default[
+    {
+        id:1,
+        title: "Life Lessons with Katie Zephyrus",
+        image: "https://superleaguetriathlon.com/wp-content/uploads/Katie_Zaferes_21.jpg",
+        rating: 4.3,
+        reviewcount: 6,
+        location: "USA",
+        price: 136,
+        openspots:0,
+    },
+    {
+        id:2,
+        title: "Hidden gems of Pink City",
+        image: "https://cdn.shopify.com/s/files/1/1909/1947/articles/11-min_1080x.png",
+        rating: 4.9,
+        reviewcount: 75,
+        location: "India",
+        price: 100,
+        openspots:27,
+    },
+    {
+        id:3,
+        title: "Enjoy the heat in Gobi Desert",
+        image: "https://sweetlyphotography.com/wp-content/uploads/2015/03/Jordan-1.jpg",
+        rating: 3.8,
+        reviewcount: 25,
+        location: "China",
+        price: 250,
+        openspots:4,
+    },
+]
